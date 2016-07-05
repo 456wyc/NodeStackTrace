@@ -22,8 +22,8 @@ function StackTrace(stack) {
     this.filePath         = parsedFinalInvoke[1];
     this.row              = parsedFinalInvoke[2];
     this.column           = parsedFinalInvoke[3];
-    this.finaName         = path.parse(this.filePath).base;
-    this.location         = util.format('%s:%s:%s', this.finaName, this.row, this.column);
+    this.fileName         = path.parse(this.filePath).base;
+    this.location         = util.format('%s:%s:%s', this.fileName, this.row, this.column);
 }
 
 

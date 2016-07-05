@@ -41,7 +41,7 @@ c();
   filePath: 'e:\\workspace\\ACTools\\StackTrace\\test\\test.js',
   row: '3',
   column: '13',
-  finaName: 'test.js',
+  fileName: 'test.js',
   location: 'test.js:3:13' } 'hello'
   
 test.js:5:13 hello
