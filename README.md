@@ -26,7 +26,7 @@ function c() {
 c();
 ```
 
-##output
+## output
 
 ```
 { stack: 
