@@ -1,10 +1,10 @@
-#StackTrace
+# wstacktrace
 跟踪当前函数的调用，初始目的是获取行号，以便打印log时用。
 
-##code
+## code
 test.js
 ```javascript
-var ct = require('call-trace');
+var ct = require('wstacktrace');
 
 console.log(ct(),'hello');
 
