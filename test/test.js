@@ -29,3 +29,25 @@ function c() {
 }
 
 c();
+
+function promiseFn(a) {
+    return new Promise(function (res, rej) {
+        if (a === 1) {
+            res(true)
+        } else {
+            rej(new Error('not 1'))
+        }
+    })
+}
+
+promiseFn(1).then(function (r) {
+    console.log(st().location, r);
+}).catch(function (e) {
+    console.log(st().location, e);
+});
+
+promiseFn(2).then(function (r) {
+    console.log(st().location, r);
+}).catch(function (e) {
+    console.log(st().location, e.message);
+});

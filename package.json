@@ -1,6 +1,6 @@
 {
     "name": "wstacktrace",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Wyc's Stack Trace",
     "main": "index.js",
     "scripts": {
